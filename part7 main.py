@@ -42,4 +42,4 @@ async def purge(ctx, amount:int):
            await asyncio.sleep(2)
            await msg.delete()
 
-bot.run("TOKEN")
+bot.run("MTIwMDQ4NzMyMDY3MjAxMDI1MA.GSTrHB.VWDYxnpNB4pxv9DeN_4VaJ2V4y8yWjq0OpXc_w")
