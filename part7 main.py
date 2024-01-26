@@ -15,7 +15,7 @@ async def on_ready():
 @bot.command()
 @commands.has_permissions(administrator=True)
 @commands.has_permissions(manage_channels=True)
-async def purge(ctx, amount:int):
+async def mes(ctx, amount:int):
     if amount > 1000:
         await ctx.send(f"({amount}/1000) 削除する数が多すぎます。1000文字以内に収めてください")
     else:
@@ -42,4 +42,4 @@ async def purge(ctx, amount:int):
            await asyncio.sleep(2)
            await msg.delete()
 
-bot.run("TOKEN")
+bot.run("MTIwMDQ4NzMyMDY3MjAxMDI1MA.Gxgwsa.GeIlE-zGBmq1OCLBSusfvYehZTn5r7jPP_Iz10")
